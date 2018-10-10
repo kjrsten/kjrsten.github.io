@@ -19,3 +19,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
 margin: 20px;
 
 }
+
+body, * {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  background-color: gray;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: pink;
+  height: 100px;
+}
+
+nav {
+  background-color: lightblue;
+  height: 50px;
+}
+
+main {
+  background-color: white;
+  width: 960px;
+}
+
+footer {
+  background-color: lightgray;
+  height: 100px;
+}
+
+aside {
+  background-color: cadetblue;
+  width: 300px;
+  min-height: 400px;
+  float: left;
+}
+
+section {
+  background-color: thistle;
+  width: 660px;
+  min-height: 400px;
+  float: left;
+}
