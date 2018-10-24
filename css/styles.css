@@ -104,6 +104,21 @@ section {
   position: relative;
 }
 
+.myflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.myflex .gradient-box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+
 @media (max-width: 767px) {
   img {
     display: block;
@@ -124,11 +139,19 @@ section {
     float: none;
     width: 100%;
   }
+  nav {
+    height: 260px;
+  }
 }
 
 @media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
   nav li {
-    display: inline-block;
+    /* display: inline-block; */
     margin-right: -4px;
     font-size: 1.5rem;
     line-height: 2.25rem;
