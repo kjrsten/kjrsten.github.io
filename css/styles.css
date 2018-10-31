@@ -118,6 +118,71 @@ section {
   margin-bottom: 10px;
 }
 
+.grow {
+  background-color: black;
+  font-size: 24px;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-delay: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.grow:hover {
+  font-size:60px;
+}
+
+#delay {
+  background-color: fuchsia;
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  -webkit-backface-visibility: hidden;
+}
+
+#delay:hover {
+  font-size: 36px;
+}
+
+.mybox {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 0;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.mybox:hover {
+  width: 300px;
+  border-radius: 100px;
+}
+
+.mybox2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0;
+  border-radius: 0;
+  background-color: red;
+  transition: all 2s ease-in-out 0.5s;
+}
+
+.mybox2:hover {
+  background-color: black;
+  height: 200px;
+  left: 200px;
+  border-radius: 100px;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 767px) {
   img {
