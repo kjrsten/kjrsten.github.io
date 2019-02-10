@@ -1,3 +1,6 @@
 name: Kjrstens Demo Jekyll Site
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+plugins:
+  - jekyll-sitemap
